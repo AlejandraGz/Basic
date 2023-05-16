@@ -3,13 +3,13 @@ let numOfWheels = parseInt(prompt("Ingrese el número de llantas:"));
 let transportType = prompt("Ingrese el medio de transportType:").toLowerCase();
 
 if (numOfWheels != NaN && transportType != "") {
-  if (numOfWheels == 4 && transportType == "terreste") {
+  if (numOfWheels == 4 && transportType == "terrestre") {
     alert("El medio de transportType es un automovil.");
-  } else if (numOfWheels > 4 && transportType == "terreste") {
+  } else if (numOfWheels > 4 && transportType == "terrestre") {
     alert("El medio de transportType es un camion.");
-  } else if (numOfWheels == 2 && transportType == "terreste") {
+  } else if (numOfWheels == 2 && transportType == "terrestre") {
     alert("El medio de transportType es una moto o bicicleta.");
-  } else if (numOfWheels == 1 && transportType == "terreste") {
+  } else if (numOfWheels == 1 && transportType == "terrestre") {
     alert("El medio de transportType es un monociclo.");
   } else if (numOfWheels == 0 && transportType == "acuatico") {
     alert("El medio de transportType es un barco.");
